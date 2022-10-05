@@ -3,6 +3,24 @@
   box-sizing: border-box;
 }
 
+/*New Good Looking Fonts */
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+/*Neumorphism effects on Input Field*/
+#myInput{
+  padding-left: 45px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #595959;
+  background: #dde1e7;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+}
+
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -71,10 +89,13 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #63ae35;
+  background-color: #63ae31;
   padding: 30px 40px;
-  color: white;
+  font-family: "Sofia", sans-serif;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffff73,
+              2px 2px 5px rgba(94, 104, 121, 0.288);
 }
 
 /* Clear floats after the header */
@@ -86,6 +107,7 @@ ul li.checked::before {
 
 /* Style the input */
 input {
+  font-family: "Sofia", sans-serif;
   margin: 0;
   border: none;
   border-radius: 0;
@@ -95,7 +117,7 @@ input {
   font-size: 16px;
 }
 
-/* Style the "Add" button */
+/* Style the "Add" button and Neumorphism effects on "Add" Button Field*/
 .addBtn {
   padding: 10px;
   width: 25%;
@@ -107,8 +129,16 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+color: #595959;
+  background: #dde1e7;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+
 }
 
 .addBtn:hover {
   background-color: #bbb;
+  font-size: 17px;
 }
+
